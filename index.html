@@ -4,11 +4,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Temp Page</title>
+    <title>Tojofenitra Fabrice Andriambololontseheno - WDD 230 - Web Frontend Development</title>
+    <meta name="description"
+        content="Tojofenitra Fabrice Andriambololontseheno's homepage for WDD 230 - Web Frontend Development in the course assignment portal">
+    <meta name="author" content="Tojofenitra Fabrice Andriambololontseheno">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
 </head>
 
 <body>
-    <h1>Temp Page</h1>
+    <header>
+        <img src="images/profile.jpg" alt=" Tojo profile" width="75" height="93">
+        <span>Tojofenitra Fabrice Andriambololontseheno</span>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="#">Site Plan</a></li>
+            <li><a href="#">Form</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>WDD 230: Web Frontend Development</h1>
+        <hr>
+        <div class="main">
+            <section class="card">
+                <h2>Learning Activities</h2>
+                <ul>
+                    <li> Week 01:
+                        <a href="">Layout</a> |
+                        <a href="">Media Query</a> |
+                        <a href="">JS Pen</a>
+                    </li>
+                    <li> Week 02:</li>
+                    <li> Week 03:</li>
+                    <li> Week 04:</li>
+                    <li> Week 05:</li>
+                    <li> Week 06:</li>
+                </ul>
+            </section>
+            <section class="card">
+                <h2>Information</h2>
+                <p>
+                    Toliara, Madagascar <br><br>
+                    50° F - Sunshine <br><br>
+                    Page Visits: 15
+                </p>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>&copy;<span id="year"></span> - Tojofenitra Fabrice Andriambololontseheno - Madagascar</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
 </body>
 
 </html>
