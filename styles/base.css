@@ -27,6 +27,7 @@ nav {
 }
 
 nav ul {
+    display: none;
     list-style-type: none;
 }
 
@@ -87,4 +88,17 @@ main p {
 #lastModified {
     padding-top: 5px;
     color: #cb5a0a;
+}
+
+header {
+    position: relative;
+}
+
+#mode {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 3rem;
+    cursor: pointer;
+    font-size: 2rem;
 }
